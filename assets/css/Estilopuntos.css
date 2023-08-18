@@ -1,0 +1,10 @@
+
+.fondo{
+    background-image: url(../img/fondo.jpg);
+}
+.caja{
+    margin-top: 10rem;
+}
+.textos{
+    color: #000;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/Estilopuntos.css">
+</head>
+
+<body>
+    <div class="d-flex align-content-center justify-content-center mt-3 textos">
+        <h1><strong>Par o Impar</strong></h1>
+    </div>
+    <strong class="d-flex align-content-center justify-content-center">Que número quieres jugar</strong>
+    <section class="container caja d-flex align-content-center justify-content-center ">
+        <div class="card fondo" style="width: 18rem;">
+            <div class="card-body m-3">
+                <form id="FIngreso">
+                    <input type="number" placeholder="Digita un numero" value="1" id="iNumero">
+                    <button type="submit" class="btn btn-primary m-3">
+                        Enviar Número
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+<div class="container d-flex align-content-center justify-content-center">
+    <div id="Resultados" class="d-flex"></div>
+</div>
+
+    <script src="../assets/js/punto2.js"></script>
+</body>
+
+</html>
